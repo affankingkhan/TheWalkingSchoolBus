@@ -1,4 +1,4 @@
-As we're a group of 2 we were recommended to do only the gamification part
+
 
 This is what was implemented:
 
