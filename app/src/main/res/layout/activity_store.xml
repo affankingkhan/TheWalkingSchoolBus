@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.StoreActivity">
+
+    <!--STORE-->
+
+    <TextView
+        android:id="@+id/txtCurrentPoints"
+        android:layout_width="311dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="27dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/chango"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/listAvailableInStore"
+        app:layout_constraintEnd_toEndOf="@+id/listAvailableInStore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        tools:text="Current Points" />
+
+    <!--Available In Store-->
+
+    <TextView
+        android:id="@+id/textAvailableTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/chango"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/listAvailableInStore"
+        app:layout_constraintStart_toStartOf="@+id/listAvailableInStore"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Available In Store" />
+
+    <!--Available in Store Listview-->
+
+    <ListView
+        android:id="@+id/listAvailableInStore"
+        android:layout_width="301dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="289dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginStart="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textAvailableTitle" />
+
+    <!--purchased-->
+
+    <TextView
+        android:id="@+id/textPurchasedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/chango"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/listPurchased"
+        app:layout_constraintStart_toStartOf="@+id/listPurchased"
+        app:layout_constraintTop_toBottomOf="@+id/listAvailableInStore"
+        tools:text="Purchased" />
+
+    <!--purchased listview-->
+
+
+    <ListView
+        android:id="@+id/listPurchased"
+        android:layout_width="303dp"
+        android:layout_height="142dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginStart="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/textStoreInstructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPurchasedTitle" />
+
+    <!--Explanation -->
+
+    <TextView
+        android:id="@+id/textStoreInstructions"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/Rewards_instructions"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listPurchased" />
+
+</android.support.constraint.ConstraintLayout>

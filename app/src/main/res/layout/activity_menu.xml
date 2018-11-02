@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.MenuActivity">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:id="@+id/tableLayout5"
+            android:layout_width="282dp"
+            android:layout_height="616dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/txtMainMenuTitle"
+            app:layout_constraintHorizontal_bias="0.451"
+            app:layout_constraintStart_toStartOf="@+id/txtMainMenuTitle"
+            app:layout_constraintTop_toBottomOf="@id/txtCurrentTitle"
+            tools:layout_editor_absoluteY="95dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="133dp">
+
+                <Button
+                    android:id="@+id/btnAboutMe"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="125dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:drawableTop="@drawable/ic_personal_info"
+                    android:text="@string/personal_information_button" />
+
+                <Button
+                    android:id="@+id/btnMonitoringMenu"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="120dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_family"
+                    android:text="@string/monitoring_btn_text" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent"-->
+                <!--app:layout_constraintVertical_bias="0.329" -->
+                <Button
+                    android:id="@+id/btnMaps"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_map"
+                    android:text="@string/map" />
+
+                <Button
+                    android:id="@+id/btnGroupsMenu"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_people_black_24dp"
+                    android:text="@string/groups_btn_text"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnParentDashboard"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_location_map"
+                    android:text="@string/parent_dashboard" />
+
+                <Button
+                    android:id="@+id/btnStartAWalk"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_walking"
+                    android:text="@string/start_a_walk" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnLeaderBoard"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_trophy"
+                    android:text="@string/btn_leader_board" />
+
+                <Button
+                    android:id="@+id/btnStore"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_rewards"
+                    android:text="@string/rewards_btn_text" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnResources"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_attach_file_black_24dp"
+                    android:text="@string/resources_btn" />
+
+                <Button
+                    android:id="@+id/btnLogout"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="114dp"
+                    android:layout_height="104dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableTop="@drawable/ic_logout"
+                    android:text="@string/btn_logout" />
+            </TableRow>
+
+            <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--&lt;!&ndash;app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_constraintHorizontal_bias="0.502"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_constraintVertical_bias="0.784"&ndash;&gt;-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btnLogout"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="49dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="@string/btn_logout"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--app:layout_constraintEnd_toEndOf="parent" />-->
+            <!--</TableRow>-->
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/txtMainMenuTitle"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/chango"
+            android:text="@string/titile_main_menu"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/txtCurrentTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/menuIconImage"
+            android:layout_width="62dp"
+            android:layout_height="44dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/current_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtMainMenuTitle"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034" />
+
+        <TextView
+            android:id="@+id/txtCurrentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/chango"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout5"
+            app:layout_constraintEnd_toEndOf="@+id/tableLayout5"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toStartOf="@+id/tableLayout5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:text="Title" />
+
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.041" -->
+
+
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.967"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.964"-->
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</ScrollView>

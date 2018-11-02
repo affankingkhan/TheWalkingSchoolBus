@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDefault">#3F51B5</color>
+    <color name="colorPrimaryDarkDefault">#303F9F</color>
+    <color name="colorAccentDefault">#FF4081</color>
+    <color name="background_material_lightDefault">#FFEDEDEE</color>
+
+    <color name="colorPrimary1">#FF212121</color>
+    <color name="colorPrimaryDark1">#FF000000</color>
+    <color name="colorAccent1">#FF009688</color>
+    <color name="background_material_light1">#FFD1BFBF</color>
+
+    <color name="accent_material_dark_1">#5ba49d</color>
+
+    <color name="colorPrimary2">#FF067F20</color>
+    <color name="colorPrimaryDark2">#FF023F15</color>
+    <color name="colorAccent2">#FFE93C0D</color>
+    <color name="background_material_light2">#FFF1E562</color>
+
+
+    <color name="colorPrimary3">#FFD20E53</color>
+    <color name="colorPrimaryDark3">#FFD20E53</color>
+    <color name="colorAccent3">#FF000000</color>
+    <color name="background_material_light3">#FFA799B6</color>
+
+    <color name="colorPrimary4">#FF067F20</color>
+    <color name="colorPrimaryDark4">#FF023F15</color>
+    <color name="colorAccent4">#FFE93C0D</color>
+    <color name="background_material_light4">#FF85E072</color>
+
+
+    <color name="colorPrimary5">#FF110F55</color>
+    <color name="colorPrimaryDark5">#FF110F55</color>
+    <color name="colorAccent5">#FF7B0A1B</color>
+    <color name="background_material_light5">#80cbc4</color>
+
+
+    <color name="accent_material_dark_2">#80cbc4</color>
+    <color name="primary_material_dark_1">#e43e3e</color>
+    <color name="background_material_dark_1">#f1e562</color>
+    <color name="accent_material_dark_3">#110f55</color>
+
+
+</resources>

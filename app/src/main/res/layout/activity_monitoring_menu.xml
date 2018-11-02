@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.MonitoringAndGroupsActivity">
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="299dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="303dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txtGroupsMenu"
+        app:layout_constraintStart_toStartOf="@+id/txtGroupsMenu"
+        app:layout_constraintTop_toBottomOf="@+id/txtGroupsMenu">
+
+        <Button
+            android:id="@+id/btnMonitoring"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/users_i_am_monitoring" />
+
+        <Button
+            android:id="@+id/btnMonitorMe"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/users_monitoring_me" />
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0.151" -->
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtGroupsMenu"
+        android:layout_width="318dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="119dp"
+        android:fontFamily="@font/chango"
+        android:text="What Would You Like To Look At?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

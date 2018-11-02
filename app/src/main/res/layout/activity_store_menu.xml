@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.cmpt276.walkinggroup.app.StoreMenuActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/txtCurrentPointsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="113dp"
+        android:fontFamily="@font/chango"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitleCategories"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Current Points" />
+
+    <TextView
+        android:id="@+id/txtTitleCategories"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="76dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/chango"
+        android:text="@string/store_menu_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listView_Categories"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurrentPointsMenu" />
+
+    <ListView
+        android:id="@+id/listView_Categories"
+        android:layout_width="273dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="203dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginStart="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleCategories" />
+
+</android.support.constraint.ConstraintLayout>
