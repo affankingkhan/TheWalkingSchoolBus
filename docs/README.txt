@@ -1,7 +1,7 @@
 1) What is Android?
 It is an open-sourced operating system that is used primarily on mobile devices, such as
 cell phones and tablets. It is a Linux kernel-based system that&#39;s been equipped with rich
-components that allows developers to create and run apps that can perform both basic
+components that allow developers to create and run apps that can perform both basic
 and advanced functions.
 2) What Is the Google Android SDK?
 The Google Android SDK is a toolset that developers need in order to write apps on
@@ -27,7 +27,7 @@ mobile device. They can write and test codes, and even debug. Emulators are a sa
 place for testing codes especially if it is in the early design phase.
 7) What is the use of an activityCreator?
 An activityCreator is the first step towards the creation of a new Android project. It is
-made up of a shell script that will be used to create new file system structure necessary
+made up of a shell script that will be used to create a new file system structure necessary
 for writing codes within the Android IDE.
 8 ) Describe Activities.
 Activities are what you refer to as the window to a user interface. Just as you create
@@ -73,13 +73,9 @@ Android Market for distribution to anyone who wants to download it.
 16) What do you think are some disadvantages of Android?
 Given that Android is an open-source platform, and the fact that different Android
 operating systems have been released on different mobile devices, there&#39;s no clear cut
-policy to how applications can adapt with various OS versions and upgrades.One app
+policy on how applications can adapt with various OS versions and upgrades.
+One app that runs on this particular version of Android OS may or may not run on another version. Since mobile devices such as phones and tabs come in different sizes and forms, it poses a challenge for developers to create apps that can adjust correctly to the right screen size and other varying features and specs.”
 
-that runs on this particular version of Android OS may or may not run on another
-version that comes another disadvantage that since mobile devices such as phones and
-tabs come in different sizes and forms, it poses a challenge for developers to create
-apps that can adjust correctly to the right screen size and other varying features and
-specs.
 17) What is adb?
 Adb is short for Android Debug Bridge. It allows developers the power to execute
 remote shell commands. Its basic function is to allow and control communication
@@ -91,8 +87,8 @@ towards and from the emulator port.
 another activity
 • Destroyed – when the activity process is killed or completed terminated
 19) What is ANR?
-ANR is short for Application Not Responding. This is actually a dialog that appears to
-the user whenever an application have been unresponsive for a long period of time.
+ANR is short for Application Not Responding. This is a dialog that appears to
+the user whenever an application has been unresponsive for a long period of time.
 20) Which elements can occur only once and must be present?
 Among the different elements, the and elements must be present and can occur only
 once. The rest are optional, and can occur as many times as needed.
@@ -157,7 +153,7 @@ When default resources, which contain default strings and files, are not present
 error will occur and the app will not run. Resources are placed in specially named
 subdirectories under the project res/ directory.
 34) When dealing with multiple resources, which one takes precedence?
-Assuming that all of these multiple resources are able to match the configuration of a
+Assuming that all of these multiple resources can match the configuration of a
 device, the &#39;locale&#39; qualifier almost always takes the highest precedence over the
 others.
 35) When does ANR occur?
@@ -187,7 +183,7 @@ user, but not necessarily being in the foreground itself.
 40) When is the best time to kill a foreground activity?
 The foreground activity, being the most important among the other states, is only killed
 or terminated as a last resort, especially if it is already consuming too much memory.
-When a memory paging state has been reach by a foreground activity, then it is killed so
+When a memory paging state has been reached by a foreground activity, then it is killed so
 that the user interface can retain its responsiveness to the user.
 41) Is it possible to use or add a fragment without using a user interface?
 
